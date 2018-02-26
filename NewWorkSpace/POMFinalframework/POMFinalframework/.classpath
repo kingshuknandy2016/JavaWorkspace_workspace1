@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.1%Foundation-1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ExtendedReLibrary"/>
+	<classpathentry kind="lib" path="G:/Java Work spaces/workspace/NewWorkSpace/POMFinalframework/POMFinalframework/JarLibraries/MonteScreenRecorder.jar"/>
+	<classpathentry kind="lib" path="G:/Java Work spaces/workspace/NewWorkSpace/POMFinalframework/POMFinalframework/JarLibraries/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="G:/Java Work spaces/workspace/NewWorkSpace/POMFinalframework/POMFinalframework/JarLibraries/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="G:/Java Work spaces/workspace/NewWorkSpace/Hybrid FW/lib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21433" started-at="2015-07-10T03:46:47Z" finished-at="2015-07-10T03:47:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21433" started-at="2015-07-10T03:46:47Z" finished-at="2015-07-10T03:47:09Z">
+      <class name="com.booking.Authentication">
+        <test-method status="PASS" signature="CredentialValidation()[pri:0, instance:com.booking.Authentication@51891008]" name="CredentialValidation" duration-ms="21409" started-at="2015-07-10T09:16:47Z" finished-at="2015-07-10T09:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CredentialValidation -->
+      </class> <!-- com.booking.Authentication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

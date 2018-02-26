@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app ng-init="names=[
+{ 'customerName': 'Infitech', 'custId': 1010,'custLoc': 'Bangalore', 'Payment': 5000},
+{ 'customerName': 'SPI', 'custId': 1011,'custLoc': 'Mysore', 'Payment': 7000},
+{ 'customerName': 'Infosis', 'custId': 1012, 'custLoc': 'kolkata', 'Payment': 8000 } 
+]">
+  <ul ng-repeat="x in names">
+    <li >{{ x.customerName | uppercase}}</li>
+    <li >{{ x.custId }}</li>
+    <li >{{ x.custLoc | lowercase }}</li>
+  </ul>
+</div>
+    
+
+</body>
+</html>

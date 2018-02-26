@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112577" started-at="2015-09-19T13:20:26Z" finished-at="2015-09-19T13:22:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112577" started-at="2015-09-19T13:20:26Z" finished-at="2015-09-19T13:22:19Z">
+      <class name="amazon.vendor.central.downloadingfile">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:amazon.vendor.central.downloadingfile@35851384]" name="StartBrowser" duration-ms="112545" started-at="2015-09-19T18:50:26Z" finished-at="2015-09-19T18:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:amazon.vendor.central.downloadingfile@35851384]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2015-09-19T18:52:19Z" finished-at="2015-09-19T18:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- amazon.vendor.central.downloadingfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

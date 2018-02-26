@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="methods">
+  <test name="Default test(failed)" parallel="methods">
+    <classes>
+      <class name="com.amazon.uk.Amazonbook">
+        <methods>
+          <include name="AuroraSmokeTest2"/>
+        </methods>
+      </class> <!-- com.amazon.uk.Amazonbook -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

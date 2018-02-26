@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	//var request = null;
+	function getObject() {
+		var request = null;
+		if (window.XMLHttpRequest) {
+			request = new XMLHttpRequest();
+		} else if (window.ActiveXObject) {
+			request  =new ActiveXObject("Microsoft.XMLHTTP");
+		}
+	}
+
+	function checkAvail(input) {
+
+		// request=getObject();	
+		
+		
+		var request = null;
+		if (window.XMLHttpRequest) {
+			//alert("Chrome");	
+			request = new XMLHttpRequest();
+		} else if (window.ActiveXObject) {
+			//alert("IE");
+			request = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		
+		if (request) {
+			var url = "checkid";
+			url += "?uid=" + input;
+			request.open("get", url,true);
+			request.onreadystatechange = function() {
+
+				if (request.readyState == 4) {
+					document.getElementById("status").innerHTML = request.responseText;
+				//	document.getElementById("status").style.visibility = "visible";
+				}
+
+			}
+			
+			request.send();
+
+		} else {
+			alert("Your browser don't support AJax !");
+		}
+		
+	//	alert(input);
+		//document.getElementById("status").innerHTML = input;
+	}
+	
+</script>
+
+</head>
+<body>
+
+
+	<form action="#" method="get">
+
+		<table width="50%" border="1">
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="firstname" value=""></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>UserID:</td>
+				<td><input type="text" name="userid" value=""
+					onblur="checkAvail(this.value)"></td>
+				<td id="status"></td>
+			</tr>
+<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="lastname" value=""></td>
+				<td></td>
+			</tr>
+
+		</table>
+	</form>
+
+
+
+
+
+</body>
+</html>

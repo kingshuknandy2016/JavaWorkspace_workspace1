@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/WD"/>
+	<classpathentry kind="lib" path="C:/selenium project jars/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/selenium project jars/mail.jar"/>
+	<classpathentry kind="lib" path="C:/selenium project jars/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/selenium project jars/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/selenium project jars/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

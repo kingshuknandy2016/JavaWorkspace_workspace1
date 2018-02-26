@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExcelLibrary.java&apos; to &apos;TestProject/src/com.pojo&apos;&#x0D;&#x0A;- Original project: &apos;POMFinalframework&apos;&#x0D;&#x0A;- Destination element: &apos;TestProject/src/com.pojo&apos;&#x0D;&#x0A;- Original element: &apos;com.spi.data.ExcelLibrary.java&apos;" description="Copy compilation unit" destination="=TestProject/src&lt;com.pojo" element1="/src&lt;com.spi.data{ExcelLibrary.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1490621263523" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="customer.js"></script>
+</head>
+<body>
+
+<div ng-app="FirstApp" >
+<div ng-controller="FirstController">
+  <ul  ng-repeat="x in customerOBJ | orderBy:'customerName'">
+    <li >{{ x.customerName | uppercase}}</li>
+    <li >hi:{{ x.custId }}</li>
+    <li >{{ x.custLoc | lowercase }}</li>
+  </ul>
+</div>
+</div>
+
+    
+
+</body>
+</html>
